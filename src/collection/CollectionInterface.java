@@ -26,7 +26,26 @@ public class CollectionInterface {
         System.out.println(al);
         System.out.println(al2);
 
+//// add() method returns boolean value
+        System.out.println(al.add("raj"));  ///true
 
+//        contains() method
+        System.out.println(al.contains(200));
 
+//        isEmpty() method
+
+//        size() method
+
+//// remove method
+//        takes object as an input but integer is counted as index
+        al.remove("raj");
+//        al.remove(10);   //// ArrayIndexOutofbound
+
+//        // removeAll(Collection c)
+        al.removeAll(al2);
+        System.out.println(al);
+        System.out.println(al2);
+//// clear()   ----> Deletes all elements of a collection
+//        Ex---> al.clear();
     }
 }
